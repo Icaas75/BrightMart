@@ -1,0 +1,375 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/pbir/reportSchema/1.0.0/schema.json",
+  "settings": {
+    "useStylizedVisualContainerHeaders": true,
+    "defaultVisualStyles": {}
+  },
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10"
+    }
+  },
+  "layout": {
+    "pageSize": {
+      "type": "Default"
+    }
+  },
+  "pages": [
+    {
+      "name": "sales-overview",
+      "displayName": "Sales Overview",
+      "visualContainers": [
+        {
+          "name": "kpi0",
+          "type": "VisualContainer",
+          "position": {
+            "x": 24,
+            "y": 24,
+            "width": 220,
+            "height": 130,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "card",
+            "objects": {},
+            "query": {
+              "Values": {
+                "Aggregations": [
+                  {
+                    "Aggregation": {
+                      "Expression": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Schema": "m"
+                            }
+                          },
+                          "Reference": "Total Revenue"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Total Revenue (ETB)"
+        },
+        {
+          "name": "kpi1",
+          "type": "VisualContainer",
+          "position": {
+            "x": 260,
+            "y": 24,
+            "width": 220,
+            "height": 130,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "card",
+            "objects": {},
+            "query": {
+              "Values": {
+                "Aggregations": [
+                  {
+                    "Aggregation": {
+                      "Expression": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Schema": "m"
+                            }
+                          },
+                          "Reference": "Orders"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Orders"
+        },
+        {
+          "name": "kpi2",
+          "type": "VisualContainer",
+          "position": {
+            "x": 496,
+            "y": 24,
+            "width": 220,
+            "height": 130,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "card",
+            "objects": {},
+            "query": {
+              "Values": {
+                "Aggregations": [
+                  {
+                    "Aggregation": {
+                      "Expression": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Schema": "m"
+                            }
+                          },
+                          "Reference": "Units Sold"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Units Sold"
+        },
+        {
+          "name": "kpi3",
+          "type": "VisualContainer",
+          "position": {
+            "x": 732,
+            "y": 24,
+            "width": 220,
+            "height": 130,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "card",
+            "objects": {},
+            "query": {
+              "Values": {
+                "Aggregations": [
+                  {
+                    "Aggregation": {
+                      "Expression": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Schema": "m"
+                            }
+                          },
+                          "Reference": "Average Order Value"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "title": "Avg Order Value (ETB)"
+        },
+        {
+          "name": "dailyRevenueArea",
+          "type": "VisualContainer",
+          "position": {
+            "x": 24,
+            "y": 180,
+            "width": 690,
+            "height": 330,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "areaChart",
+            "objects": {}
+          },
+          "title": "Daily Revenue",
+          "projections": {
+            "Category": [
+              {
+                "field": {
+                  "Column": {
+                    "Property": "DateKey"
+                  }
+                },
+                "queryRef": "Sales.DateKey"
+              }
+            ],
+            "Y": [
+              {
+                "field": {
+                  "Measure": {
+                    "Property": "Total Revenue"
+                  }
+                },
+                "queryRef": "Sales.Total Revenue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "topProductsBars",
+          "type": "VisualContainer",
+          "position": {
+            "x": 730,
+            "y": 180,
+            "width": 460,
+            "height": 330,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "barChart",
+            "objects": {}
+          },
+          "title": "Top Products by Revenue",
+          "projections": {
+            "Category": [
+              {
+                "field": {
+                  "Column": {
+                    "Property": "Product"
+                  }
+                },
+                "queryRef": "Sales.Product"
+              }
+            ],
+            "Y": [
+              {
+                "field": {
+                  "Measure": {
+                    "Property": "Total Revenue"
+                  }
+                },
+                "queryRef": "Sales.Total Revenue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "revenueByCategory",
+          "type": "VisualContainer",
+          "position": {
+            "x": 24,
+            "y": 526,
+            "width": 350,
+            "height": 300,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "donutChart",
+            "objects": {}
+          },
+          "title": "Revenue by Category",
+          "projections": {
+            "Category": [
+              {
+                "field": {
+                  "Column": {
+                    "Property": "Category"
+                  }
+                },
+                "queryRef": "Sales.Category"
+              }
+            ],
+            "Values": [
+              {
+                "field": {
+                  "Measure": {
+                    "Property": "Total Revenue"
+                  }
+                },
+                "queryRef": "Sales.Total Revenue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "revenueBySalesperson",
+          "type": "VisualContainer",
+          "position": {
+            "x": 390,
+            "y": 526,
+            "width": 350,
+            "height": 300,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "barChart",
+            "objects": {}
+          },
+          "title": "Revenue by Salesperson",
+          "projections": {
+            "Category": [
+              {
+                "field": {
+                  "Column": {
+                    "Property": "Salesperson"
+                  }
+                },
+                "queryRef": "Sales.Salesperson"
+              }
+            ],
+            "Y": [
+              {
+                "field": {
+                  "Measure": {
+                    "Property": "Total Revenue"
+                  }
+                },
+                "queryRef": "Sales.Total Revenue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "revenueByPaymentMethod",
+          "type": "VisualContainer",
+          "position": {
+            "x": 756,
+            "y": 526,
+            "width": 350,
+            "height": 300,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "columnChart",
+            "objects": {}
+          },
+          "title": "Revenue by Payment Method",
+          "projections": {
+            "Category": [
+              {
+                "field": {
+                  "Column": {
+                    "Property": "Payment_Method"
+                  }
+                },
+                "queryRef": "Sales.Payment_Method"
+              }
+            ],
+            "Y": [
+              {
+                "field": {
+                  "Measure": {
+                    "Property": "Total Revenue"
+                  }
+                },
+                "queryRef": "Sales.Total Revenue"
+              }
+            ]
+          }
+        },
+        {
+          "name": "cleaningSummaryCard",
+          "type": "VisualContainer",
+          "position": {
+            "x": 1122,
+            "y": 526,
+            "width": 230,
+            "height": 300,
+            "z": 0
+          },
+          "visual": {
+            "visualType": "image",
+            "objects": {}
+          },
+          "title": "Cleaning summary"
+        }
+      ]
+    }
+  ]
+}

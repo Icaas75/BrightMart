@@ -1,0 +1,63 @@
+table CleaningSummary
+
+	partition CSV = m
+		mode: import
+		query:
+			let
+			    Source = Folder.Files(SharedDataFolder),
+			    Row = Table.SelectRows(Source, each [Name] = "CleaningSummary.csv"){0},
+			    Csv = Csv.Document(Row[Content], [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+			    Headers = Table.PromoteHeaders(Csv, [PromoteAllScalars = true]),
+			    Typed = Table.TransformColumnTypes(Headers, {
+			{"rows_in", Int64.Type},
+			{"duplicates_removed", Int64.Type},
+			{"rows_dropped", Int64.Type},
+			{"rows_out", Int64.Type},
+			{"flagged_for_review", Int64.Type},
+			{"prices_imputed", Int64.Type},
+			{"discounts_imputed", Int64.Type},
+			{"customer_types_imputed", Int64.Type}
+			    })
+			in
+			    Typed
+
+	column rows_in
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rows_in
+
+	column duplicates_removed
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: duplicates_removed
+
+	column rows_dropped
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rows_dropped
+
+	column rows_out
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: rows_out
+
+	column flagged_for_review
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: flagged_for_review
+
+	column prices_imputed
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: prices_imputed
+
+	column discounts_imputed
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: discounts_imputed
+
+	column customer_types_imputed
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: customer_types_imputed
+

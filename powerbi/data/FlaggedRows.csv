@@ -1,0 +1,3 @@
+﻿DateKey,Invoice_ID,Salesperson,Product,Category,Quantity,Unit_Price,Discount,Payment_Method,Customer_Type,Review_Flags,Revenue,Discount_Pct
+2026-08-30,INV-00038,Dawit,iPhone 15,Phones,1.0,16000.0,0.0,Card,Individual,review,16000.0,0.0
+2026-08-19,INV-00082,Dawit,Samsung Galaxy A55,Accessories,3.0,900.0,0.0,Mobile Money,Individual,review,2700.0,0.0

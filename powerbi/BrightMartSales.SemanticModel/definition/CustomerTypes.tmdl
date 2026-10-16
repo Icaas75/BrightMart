@@ -1,0 +1,21 @@
+table CustomerTypes
+
+	partition CSV = m
+		mode: import
+		query:
+			let
+			    Source = Folder.Files(SharedDataFolder),
+			    Row = Table.SelectRows(Source, each [Name] = "CustomerTypes.csv"){0},
+			    Csv = Csv.Document(Row[Content], [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+			    Headers = Table.PromoteHeaders(Csv, [PromoteAllScalars = true]),
+			    Typed = Table.TransformColumnTypes(Headers, {
+			{"Customer_Type", text}
+			    })
+			in
+			    Typed
+
+	column Customer_Type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Customer_Type
+

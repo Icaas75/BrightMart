@@ -1,0 +1,65 @@
+model Model
+	culture en-US
+	defaultDataAccessOption Import
+
+database
+	compatibilityLevel 1560
+
+model model
+	table Sales
+	table Products
+	table Salespersons
+	table PaymentMethods
+	table CustomerTypes
+	table Date
+	table CleaningSummary
+	table FlaggedRows
+
+	relationship r0
+		fromTable Sales
+		fromColumn DateKey
+		toTable Date
+		toColumn Date
+	relationship r1
+		fromTable Sales
+		fromColumn Product
+		toTable Products
+		toColumn Product
+	relationship r2
+		fromTable Sales
+		fromColumn Salesperson
+		toTable Salespersons
+		toColumn Salesperson
+	relationship r3
+		fromTable Sales
+		fromColumn Payment_Method
+		toTable PaymentMethods
+		toColumn Payment_Method
+	relationship r4
+		fromTable Sales
+		fromColumn Customer_Type
+		toTable CustomerTypes
+		toColumn Customer_Type
+
+expression SharedDataFolder = "C:\\BrightMart\\powerbi\\data" meta [IsParameterQuery = true, ListValue = true]
+
+	measure 'Total Revenue' = SUM(Sales[Revenue])
+		formatString: #,0.00
+		lineageTag: measure_Total_Revenue
+	measure 'Orders' = COUNTROWS(Sales)
+		formatString: #,0
+		lineageTag: measure_Orders
+	measure 'Units Sold' = SUM(Sales[Quantity])
+		formatString: #,0
+		lineageTag: measure_Units_Sold
+	measure 'Average Order Value' = DIVIDE([Total Revenue], [Orders], 0)
+		formatString: #,0.00
+		lineageTag: measure_Average_Order_Value
+	measure 'Flagged Rows' = CALCULATE(COUNTROWS(Sales), Sales[Is_Flagged] = TRUE())
+		formatString: #,0
+		lineageTag: measure_Flagged_Rows
+	measure 'Flagged Revenue' = CALCULATE([Total Revenue], Sales[Is_Flagged] = TRUE())
+		formatString: #,0.00
+		lineageTag: measure_Flagged_Revenue
+
+annotation PBIDesktopVersion = "2.140.0.0"

@@ -1,0 +1,99 @@
+table Sales
+
+	partition CSV = m
+		mode: import
+		query:
+			let
+			    Source = Folder.Files(SharedDataFolder),
+			    Row = Table.SelectRows(Source, each [Name] = "Sales.csv"){0},
+			    Csv = Csv.Document(Row[Content], [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+			    Headers = Table.PromoteHeaders(Csv, [PromoteAllScalars = true]),
+			    Typed = Table.TransformColumnTypes(Headers, {
+			{"DateKey", text},
+			{"Invoice_ID", text},
+			{"Salesperson", text},
+			{"Product", text},
+			{"Category", text},
+			{"Quantity", number},
+			{"Unit_Price", number},
+			{"Discount", number},
+			{"Payment_Method", text},
+			{"Customer_Type", text},
+			{"Review_Flags", text},
+			{"Revenue", number},
+			{"Is_Flagged", logical},
+			{"Discount_Pct", number}
+			    })
+			in
+			    Typed
+
+	column DateKey
+		dataType: string
+		summarizeBy: none
+		sourceColumn: DateKey
+
+	column Invoice_ID
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Invoice_ID
+
+	column Salesperson
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Salesperson
+
+	column Product
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Product
+
+	column Category
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Category
+
+	column Quantity
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Quantity
+
+	column Unit_Price
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Unit_Price
+
+	column Discount
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Discount
+
+	column Payment_Method
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Payment_Method
+
+	column Customer_Type
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Customer_Type
+
+	column Review_Flags
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Review_Flags
+
+	column Revenue
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Revenue
+
+	column Is_Flagged
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: Is_Flagged
+
+	column Discount_Pct
+		dataType: double
+		summarizeBy: none
+		sourceColumn: Discount_Pct
+

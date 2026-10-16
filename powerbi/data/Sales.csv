@@ -1,0 +1,499 @@
+﻿DateKey,Invoice_ID,Salesperson,Product,Category,Quantity,Unit_Price,Discount,Payment_Method,Customer_Type,Review_Flags,Revenue,Is_Flagged,Discount_Pct
+2026-08-04,INV-00001,Sara,Anker Power Bank,Accessories,1.0,3500.0,0.0,Cash,Individual,,3500.0,False,0.0
+2026-08-14,INV-00002,Yonas,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Cash,Individual,,4500.0,False,0.0
+2026-08-21,INV-00003,Dawit,USB-C Cable,Accessories,1.0,900.0,0.05,Cash,Individual,,855.0,False,5.0
+2026-08-14,INV-00004,Abebe,USB-C Cable,Accessories,1.0,900.0,0.0,Cash,Business,,900.0,False,0.0
+2026-08-12,INV-00005,Marta,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Cash,Business,,28000.0,False,0.0
+2026-08-18,INV-00006,Yonas,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Bank Transfer,Individual,,56000.0,False,0.0
+2026-08-22,INV-00007,Sara,iPhone 15,Phones,1.0,52000.0,0.0,Cash,Business,,52000.0,False,0.0
+2026-08-15,INV-00008,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Cash,Individual,,52000.0,False,0.0
+2026-08-24,INV-00009,Yonas,AirPods Pro,Accessories,2.0,14500.0,0.0,Bank Transfer,Business,,29000.0,False,0.0
+2026-08-08,INV-00010,Abebe,iPhone 15,Phones,1.0,52000.0,0.0,Bank Transfer,Business,,52000.0,False,0.0
+2026-08-21,INV-00011,Marta,HP Pavilion 15,Laptops,3.0,68000.0,0.1,Bank Transfer,Business,,183600.0,False,10.0
+2026-08-08,INV-00012,Marta,Tecno Camon 30,Phones,1.0,16000.0,0.05,Mobile Money,Business,,15200.0,False,5.0
+2026-08-05,INV-00013,Abebe,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Bank Transfer,Individual,,68000.0,False,0.0
+2026-08-14,INV-00014,Marta,Anker Power Bank,Accessories,1.0,3500.0,0.05,Card,Individual,,3325.0,False,5.0
+2026-08-24,INV-00015,Dawit,Anker Power Bank,Accessories,3.0,3500.0,0.0,Cash,Business,,10500.0,False,0.0
+2026-08-06,INV-00016,Dawit,iPad 10th Gen,Tablets,4.0,48000.0,0.1,Bank Transfer,Individual,,172800.0,False,10.0
+2026-08-10,INV-00017,Sara,Anker Power Bank,Accessories,1.0,3500.0,0.0,Cash,Business,,3500.0,False,0.0
+2026-08-01,INV-00018,Sara,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Cash,Individual,,18000.0,False,0.0
+2026-08-31,INV-00019,Yonas,JBL Tune 510BT,Accessories,2.0,4500.0,0.0,Bank Transfer,Individual,,9000.0,False,0.0
+2026-08-16,INV-00020,Marta,Anker Power Bank,Accessories,1.0,3500.0,0.05,Bank Transfer,Individual,,3325.0,False,5.0
+2026-08-10,INV-00021,Yonas,USB-C Cable,Accessories,2.0,900.0,0.02,Mobile Money,Individual,,1764.0,False,2.0
+2026-08-08,INV-00022,Sara,HP Pavilion 15,Laptops,1.0,68000.0,0.05,Bank Transfer,Individual,,64600.0,False,5.0
+2026-08-23,INV-00023,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Cash,Individual,,28000.0,False,0.0
+2026-08-22,INV-00024,Yonas,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.1,Mobile Money,Individual,,93600.0,False,10.0
+2026-08-26,INV-00025,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Card,Business,,16200.0,False,10.0
+2026-08-15,INV-00026,Abebe,iPad 10th Gen,Tablets,2.0,48000.0,0.1,Cash,Business,,86400.0,False,10.0
+2026-08-11,INV-00027,Marta,USB-C Cable,Accessories,1.0,900.0,0.05,Bank Transfer,Business,,855.0,False,5.0
+2026-08-09,INV-00028,Marta,Tecno Camon 30,Phones,3.0,16000.0,0.0,Cash,Individual,,48000.0,False,0.0
+2026-08-18,INV-00029,Sara,Anker Power Bank,Accessories,4.0,3500.0,0.0,Mobile Money,Business,,14000.0,False,0.0
+2026-08-07,INV-00030,Abebe,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.02,Mobile Money,Business,,17640.0,False,2.0
+2026-08-10,INV-00031,Marta,Samsung Galaxy Tab A9,Tablets,4.0,18000.0,0.05,Bank Transfer,Individual,,68400.0,False,5.0
+2026-08-07,INV-00032,Dawit,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.0,Cash,Individual,,104000.0,False,0.0
+2026-08-16,INV-00033,Abebe,JBL Tune 510BT,Accessories,3.0,4500.0,0.0,Cash,Individual,,13500.0,False,0.0
+2026-08-20,INV-00034,Abebe,Samsung Galaxy A55,Phones,3.0,28000.0,0.02,Bank Transfer,Individual,,82320.0,False,2.0
+2026-08-03,INV-00035,Dawit,JBL Tune 510BT,Accessories,2.0,4500.0,0.05,Card,Individual,,8550.0,False,5.0
+2026-08-23,INV-00036,Dawit,Anker Power Bank,Accessories,1.0,3500.0,0.0,Mobile Money,Business,,3500.0,False,0.0
+2026-08-01,INV-00037,Abebe,Samsung Galaxy A55,Phones,5.0,28000.0,0.0,Bank Transfer,Business,,140000.0,False,0.0
+2026-08-30,INV-00038,Dawit,iPhone 15,Phones,1.0,16000.0,0.0,Card,Individual,review,16000.0,True,0.0
+2026-08-27,INV-00039,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Cash,Business,,16200.0,False,10.0
+2026-08-04,INV-00040,Yonas,Anker Power Bank,Accessories,1.0,3500.0,0.0,Bank Transfer,Business,,3500.0,False,0.0
+2026-08-20,INV-00041,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Mobile Money,Business,,46800.0,False,10.0
+2026-08-03,INV-00042,Dawit,iPhone 15,Phones,1.0,52000.0,0.0,Bank Transfer,Business,,52000.0,False,0.0
+2026-08-24,INV-00043,Abebe,Tecno Camon 30,Phones,2.0,16000.0,0.05,Cash,Individual,,30400.0,False,5.0
+2026-08-29,INV-00044,Yonas,USB-C Cable,Accessories,1.0,900.0,0.0,Bank Transfer,Business,,900.0,False,0.0
+2026-08-02,INV-00045,Dawit,Tecno Camon 30,Phones,3.0,16000.0,0.0,Bank Transfer,Individual,,48000.0,False,0.0
+2026-08-04,INV-00046,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.02,Bank Transfer,Individual,,6860.0,False,2.0
+2026-08-26,INV-00047,Dawit,Tecno Camon 30,Phones,1.0,16000.0,0.0,Mobile Money,Individual,,16000.0,False,0.0
+2026-08-06,INV-00048,Sara,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.02,Bank Transfer,Business,,152880.0,False,2.0
+2026-08-10,INV-00049,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Card,Business,,62000.0,False,0.0
+2026-08-31,INV-00050,Yonas,Samsung Galaxy A55,Phones,2.0,28000.0,0.02,Card,Individual,,54880.0,False,2.0
+2026-08-29,INV-00051,Abebe,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Cash,Business,,56000.0,False,0.0
+2026-08-24,INV-00052,Abebe,Dell Inspiron 15,Laptops,2.0,62000.0,0.05,Mobile Money,Individual,,117800.0,False,5.0
+2026-08-02,INV-00053,Sara,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.05,Card,Business,,98800.0,False,5.0
+2026-08-31,INV-00054,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Card,Business,,28000.0,False,0.0
+2026-08-13,INV-00055,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.02,Bank Transfer,Business,,60760.0,False,2.0
+2026-08-18,INV-00056,Yonas,iPad 10th Gen,Tablets,1.0,48000.0,0.02,Card,Business,,47040.0,False,2.0
+2026-08-15,INV-00057,Sara,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.1,Cash,Business,,32400.0,False,10.0
+2026-08-22,INV-00058,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.0,Bank Transfer,Individual,,14500.0,False,0.0
+2026-08-01,INV-00059,Abebe,Tecno Camon 30,Phones,5.0,16000.0,0.05,Mobile Money,Business,,76000.0,False,5.0
+2026-08-19,INV-00060,Marta,Anker Power Bank,Accessories,2.0,3500.0,0.02,Bank Transfer,Individual,,6860.0,False,2.0
+2026-08-23,INV-00061,Marta,Anker Power Bank,Accessories,3.0,3500.0,0.0,Bank Transfer,Individual,,10500.0,False,0.0
+2026-08-17,INV-00062,Marta,USB-C Cable,Accessories,2.0,900.0,0.0,Bank Transfer,Business,,1800.0,False,0.0
+2026-08-17,INV-00063,Yonas,Anker Power Bank,Accessories,1.0,3500.0,0.02,Mobile Money,Business,,3430.0,False,2.0
+2026-08-24,INV-00064,Dawit,Tecno Camon 30,Phones,1.0,16000.0,0.0,Mobile Money,Individual,,16000.0,False,0.0
+2026-08-15,INV-00065,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Card,Individual,,52000.0,False,0.0
+2026-08-05,INV-00066,Sara,Tecno Camon 30,Phones,2.0,16000.0,0.1,Cash,Business,,28800.0,False,10.0
+2026-08-11,INV-00067,Marta,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Mobile Money,Individual,,48000.0,False,0.0
+2026-08-13,INV-00068,Marta,JBL Tune 510BT,Accessories,4.0,4500.0,0.0,Mobile Money,Individual,,18000.0,False,0.0
+2026-08-08,INV-00069,Dawit,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.02,Mobile Money,Individual,,35280.0,False,2.0
+2026-08-30,INV-00070,Yonas,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.02,Cash,Individual,,35280.0,False,2.0
+2026-08-14,INV-00071,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.0,Mobile Money,Business,,7000.0,False,0.0
+2026-08-15,INV-00072,Dawit,HP Pavilion 15,Laptops,3.0,68000.0,0.02,Mobile Money,Business,,199920.0,False,2.0
+2026-08-16,INV-00073,Sara,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Cash,Individual,,56000.0,False,0.0
+2026-08-31,INV-00074,Sara,iPhone 15,Phones,3.0,52000.0,0.05,Bank Transfer,Individual,,148200.0,False,5.0
+2026-08-22,INV-00075,Dawit,Samsung Galaxy Tab A9,Tablets,4.0,18000.0,0.02,Card,Individual,,70560.0,False,2.0
+2026-08-20,INV-00076,Abebe,JBL Tune 510BT,Accessories,3.0,4500.0,0.0,Cash,Business,,13500.0,False,0.0
+2026-08-22,INV-00077,Abebe,JBL Tune 510BT,Accessories,4.0,4500.0,0.0,Bank Transfer,Individual,,18000.0,False,0.0
+2026-08-25,INV-00078,Yonas,USB-C Cable,Accessories,2.0,900.0,0.0,Cash,Business,,1800.0,False,0.0
+2026-08-14,INV-00079,Abebe,AirPods Pro,Accessories,2.0,14500.0,0.0,Mobile Money,Business,,29000.0,False,0.0
+2026-08-14,INV-00080,Sara,Samsung Galaxy A55,Phones,3.0,28000.0,0.02,Mobile Money,Individual,,82320.0,False,2.0
+2026-08-17,INV-00081,Marta,USB-C Cable,Accessories,3.0,900.0,0.05,Mobile Money,Business,,2565.0,False,5.0
+2026-08-19,INV-00082,Dawit,Samsung Galaxy A55,Accessories,3.0,900.0,0.0,Mobile Money,Individual,review,2700.0,True,0.0
+2026-08-19,INV-00083,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Individual,,18000.0,False,0.0
+2026-08-07,INV-00084,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Individual,,18000.0,False,0.0
+2026-08-31,INV-00085,Marta,AirPods Pro,Accessories,1.0,14500.0,0.02,Bank Transfer,Business,,14210.0,False,2.0
+2026-08-23,INV-00086,Dawit,Anker Power Bank,Accessories,3.0,3500.0,0.0,Bank Transfer,Business,,10500.0,False,0.0
+2026-08-08,INV-00087,Yonas,USB-C Cable,Accessories,2.0,900.0,0.02,Card,Business,,1764.0,False,2.0
+2026-08-18,INV-00088,Dawit,USB-C Cable,Accessories,2.0,900.0,0.0,Card,Individual,,1800.0,False,0.0
+2026-08-24,INV-00089,Sara,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Bank Transfer,Individual,,26600.0,False,5.0
+2026-08-16,INV-00090,Yonas,USB-C Cable,Accessories,2.0,900.0,0.05,Card,Individual,,1710.0,False,5.0
+2026-08-10,INV-00091,Yonas,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Bank Transfer,Business,,68000.0,False,0.0
+2026-08-02,INV-00092,Marta,iPhone 15,Phones,2.0,52000.0,0.0,Cash,Individual,,104000.0,False,0.0
+2026-08-10,INV-00093,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Card,Business,,4500.0,False,0.0
+2026-08-27,INV-00094,Abebe,Samsung Galaxy A55,Phones,2.0,28000.0,0.05,Bank Transfer,Individual,,53200.0,False,5.0
+2026-08-31,INV-00095,Yonas,JBL Tune 510BT,Accessories,5.0,4500.0,0.0,Mobile Money,Individual,,22500.0,False,0.0
+2026-08-13,INV-00096,Marta,AirPods Pro,Accessories,1.0,14500.0,0.05,Card,Individual,,13775.0,False,5.0
+2026-08-31,INV-00097,Dawit,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Cash,Individual,,4500.0,False,0.0
+2026-08-06,INV-00098,Marta,HP Pavilion 15,Laptops,1.0,68000.0,0.02,Mobile Money,Business,,66640.0,False,2.0
+2026-08-08,INV-00099,Abebe,iPhone 15,Phones,1.0,52000.0,0.02,Bank Transfer,Business,,50960.0,False,2.0
+2026-08-19,INV-00100,Sara,Anker Power Bank,Accessories,1.0,3500.0,0.0,Card,Individual,,3500.0,False,0.0
+2026-08-02,INV-00101,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Card,Business,,25200.0,False,10.0
+2026-08-15,INV-00102,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Mobile Money,Business,,28000.0,False,0.0
+2026-08-20,INV-00103,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Card,Individual,,28000.0,False,0.0
+2026-08-08,INV-00104,Dawit,Samsung Galaxy A55,Phones,4.0,28000.0,0.1,Cash,Individual,,100800.0,False,10.0
+2026-08-17,INV-00105,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.05,Mobile Money,Individual,,17100.0,False,5.0
+2026-08-12,INV-00106,Sara,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Business,,18000.0,False,0.0
+2026-08-16,INV-00107,Abebe,USB-C Cable,Accessories,4.0,900.0,0.05,Mobile Money,Individual,,3420.0,False,5.0
+2026-08-09,INV-00108,Yonas,Dell Inspiron 15,Laptops,5.0,62000.0,0.02,Cash,Business,,303800.0,False,2.0
+2026-08-02,INV-00109,Marta,iPad 10th Gen,Tablets,1.0,48000.0,0.02,Cash,Individual,,47040.0,False,2.0
+2026-08-18,INV-00110,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Cash,Individual,,46800.0,False,10.0
+2026-08-20,INV-00111,Abebe,Anker Power Bank,Accessories,1.0,3500.0,0.05,Mobile Money,Individual,,3325.0,False,5.0
+2026-08-27,INV-00112,Sara,HP Pavilion 15,Laptops,4.0,68000.0,0.1,Mobile Money,Business,,244800.0,False,10.0
+2026-08-23,INV-00113,Sara,AirPods Pro,Accessories,3.0,14500.0,0.02,Mobile Money,Individual,,42630.0,False,2.0
+2026-08-07,INV-00114,Abebe,iPad 10th Gen,Tablets,2.0,48000.0,0.0,Card,Business,,96000.0,False,0.0
+2026-08-30,INV-00115,Dawit,Dell Inspiron 15,Laptops,3.0,62000.0,0.0,Mobile Money,Individual,,186000.0,False,0.0
+2026-08-18,INV-00116,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.05,Mobile Money,Business,,17100.0,False,5.0
+2026-08-23,INV-00117,Abebe,HP Pavilion 15,Laptops,1.0,68000.0,0.02,Card,Business,,66640.0,False,2.0
+2026-08-30,INV-00118,Sara,USB-C Cable,Accessories,5.0,900.0,0.1,Mobile Money,Individual,,4050.0,False,10.0
+2026-08-17,INV-00119,Abebe,Tecno Camon 30,Phones,3.0,16000.0,0.02,Mobile Money,Individual,,47040.0,False,2.0
+2026-08-05,INV-00120,Sara,USB-C Cable,Accessories,2.0,900.0,0.0,Mobile Money,Business,,1800.0,False,0.0
+2026-08-20,INV-00121,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Mobile Money,Business,,62000.0,False,0.0
+2026-08-23,INV-00122,Abebe,Anker Power Bank,Accessories,2.0,3500.0,0.05,Bank Transfer,Business,,6650.0,False,5.0
+2026-08-24,INV-00123,Abebe,HP Pavilion 15,Laptops,5.0,68000.0,0.1,Mobile Money,Individual,,306000.0,False,10.0
+2026-08-10,INV-00124,Dawit,USB-C Cable,Accessories,1.0,900.0,0.0,Card,Business,,900.0,False,0.0
+2026-08-05,INV-00125,Sara,iPad 10th Gen,Tablets,1.0,48000.0,0.1,Bank Transfer,Individual,,43200.0,False,10.0
+2026-08-20,INV-00126,Yonas,Samsung Galaxy A55,Phones,2.0,28000.0,0.02,Bank Transfer,Individual,,54880.0,False,2.0
+2026-08-21,INV-00127,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Individual,,18000.0,False,0.0
+2026-08-15,INV-00128,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.02,Mobile Money,Business,,27440.0,False,2.0
+2026-08-13,INV-00129,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.05,Card,Business,,64600.0,False,5.0
+2026-08-27,INV-00130,Abebe,iPhone 15,Phones,1.0,52000.0,0.1,Mobile Money,Business,,46800.0,False,10.0
+2026-08-20,INV-00131,Dawit,HP Pavilion 15,Laptops,2.0,68000.0,0.05,Bank Transfer,Individual,,129200.0,False,5.0
+2026-08-21,INV-00132,Yonas,Anker Power Bank,Accessories,3.0,3500.0,0.0,Card,Individual,,10500.0,False,0.0
+2026-08-30,INV-00133,Sara,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Bank Transfer,Business,,56000.0,False,0.0
+2026-08-17,INV-00134,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.02,Card,Individual,,14210.0,False,2.0
+2026-08-31,INV-00135,Marta,Samsung Galaxy Tab A9,Tablets,3.0,18000.0,0.0,Card,Individual,,54000.0,False,0.0
+2026-08-01,INV-00136,Dawit,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Mobile Money,Business,,48000.0,False,0.0
+2026-08-22,INV-00137,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Bank Transfer,Individual,,26600.0,False,5.0
+2026-08-27,INV-00138,Marta,Anker Power Bank,Accessories,2.0,3500.0,0.1,Cash,Individual,,6300.0,False,10.0
+2026-08-31,INV-00139,Abebe,iPhone 15,Phones,5.0,52000.0,0.0,Bank Transfer,Individual,,260000.0,False,0.0
+2026-08-15,INV-00140,Yonas,iPad 10th Gen,Tablets,4.0,48000.0,0.1,Mobile Money,Individual,,172800.0,False,10.0
+2026-08-21,INV-00141,Dawit,iPad 10th Gen,Tablets,2.0,48000.0,0.02,Cash,Business,,94080.0,False,2.0
+2026-08-15,INV-00142,Dawit,HP Pavilion 15,Laptops,3.0,68000.0,0.0,Card,Individual,,204000.0,False,0.0
+2026-08-09,INV-00143,Abebe,iPad 10th Gen,Tablets,4.0,48000.0,0.02,Bank Transfer,Individual,,188160.0,False,2.0
+2026-08-26,INV-00144,Sara,iPhone 15,Phones,5.0,52000.0,0.05,Cash,Individual,,247000.0,False,5.0
+2026-08-07,INV-00145,Abebe,JBL Tune 510BT,Accessories,3.0,4500.0,0.05,Card,Individual,,12825.0,False,5.0
+2026-08-18,INV-00146,Abebe,Tecno Camon 30,Phones,1.0,16000.0,0.1,Bank Transfer,Individual,,14400.0,False,10.0
+2026-08-26,INV-00147,Dawit,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Cash,Individual,,62000.0,False,0.0
+2026-08-14,INV-00148,Marta,USB-C Cable,Accessories,2.0,900.0,0.02,Card,Individual,,1764.0,False,2.0
+2026-08-17,INV-00149,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Card,Business,,16200.0,False,10.0
+2026-08-31,INV-00150,Marta,Anker Power Bank,Accessories,5.0,3500.0,0.02,Cash,Business,,17150.0,False,2.0
+2026-08-30,INV-00151,Yonas,USB-C Cable,Accessories,3.0,900.0,0.0,Bank Transfer,Individual,,2700.0,False,0.0
+2026-08-09,INV-00152,Dawit,Tecno Camon 30,Phones,2.0,16000.0,0.1,Mobile Money,Business,,28800.0,False,10.0
+2026-08-17,INV-00153,Abebe,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Bank Transfer,Business,,16200.0,False,10.0
+2026-08-29,INV-00154,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.02,Mobile Money,Individual,,17640.0,False,2.0
+2026-08-14,INV-00155,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Cash,Individual,,62000.0,False,0.0
+2026-08-03,INV-00156,Sara,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Mobile Money,Business,,56000.0,False,0.0
+2026-08-04,INV-00157,Abebe,Anker Power Bank,Accessories,3.0,3500.0,0.02,Card,Business,,10290.0,False,2.0
+2026-08-04,INV-00158,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Bank Transfer,Individual,,55800.0,False,10.0
+2026-08-28,INV-00159,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Bank Transfer,Business,,62000.0,False,0.0
+2026-08-25,INV-00160,Abebe,AirPods Pro,Accessories,2.0,14500.0,0.05,Card,Individual,,27550.0,False,5.0
+2026-08-09,INV-00161,Sara,Tecno Camon 30,Phones,1.0,16000.0,0.0,Bank Transfer,Business,,16000.0,False,0.0
+2026-08-05,INV-00162,Marta,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Mobile Money,Business,,56000.0,False,0.0
+2026-08-06,INV-00163,Yonas,Dell Inspiron 15,Laptops,2.0,62000.0,0.05,Cash,Individual,,117800.0,False,5.0
+2026-08-06,INV-00164,Marta,Tecno Camon 30,Phones,2.0,16000.0,0.0,Mobile Money,Business,,32000.0,False,0.0
+2026-08-15,INV-00165,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.05,Card,Business,,4275.0,False,5.0
+2026-08-10,INV-00166,Abebe,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Bank Transfer,Business,,56000.0,False,0.0
+2026-08-02,INV-00167,Sara,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Card,Business,,4500.0,False,0.0
+2026-08-04,INV-00168,Sara,Dell Inspiron 15,Laptops,2.0,62000.0,0.0,Mobile Money,Individual,,124000.0,False,0.0
+2026-08-18,INV-00169,Abebe,AirPods Pro,Accessories,1.0,14500.0,0.1,Mobile Money,Individual,,13050.0,False,10.0
+2026-08-30,INV-00170,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.02,Mobile Money,Business,,17640.0,False,2.0
+2026-08-04,INV-00171,Yonas,Lenovo IdeaPad 3,Laptops,4.0,52000.0,0.0,Mobile Money,Business,,208000.0,False,0.0
+2026-08-14,INV-00172,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.02,Cash,Business,,27440.0,False,2.0
+2026-08-24,INV-00173,Abebe,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Cash,Individual,,52000.0,False,0.0
+2026-08-12,INV-00174,Sara,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Bank Transfer,Individual,,62000.0,False,0.0
+2026-08-03,INV-00175,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.02,Mobile Money,Business,,6860.0,False,2.0
+2026-08-11,INV-00176,Dawit,Anker Power Bank,Accessories,1.0,3500.0,0.02,Card,Individual,,3430.0,False,2.0
+2026-08-17,INV-00177,Abebe,Dell Inspiron 15,Laptops,2.0,62000.0,0.0,Card,Business,,124000.0,False,0.0
+2026-08-21,INV-00178,Marta,Samsung Galaxy A55,Phones,2.0,28000.0,0.02,Cash,Business,,54880.0,False,2.0
+2026-08-21,INV-00179,Sara,JBL Tune 510BT,Accessories,2.0,4500.0,0.05,Cash,Business,,8550.0,False,5.0
+2026-08-26,INV-00180,Sara,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Cash,Individual,,25200.0,False,10.0
+2026-08-15,INV-00181,Dawit,USB-C Cable,Accessories,2.0,900.0,0.0,Card,Business,,1800.0,False,0.0
+2026-08-14,INV-00182,Dawit,iPad 10th Gen,Tablets,2.0,48000.0,0.1,Cash,Business,,86400.0,False,10.0
+2026-08-18,INV-00183,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Bank Transfer,Business,,25200.0,False,10.0
+2026-08-19,INV-00184,Marta,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Bank Transfer,Individual,,25200.0,False,10.0
+2026-08-18,INV-00185,Yonas,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.0,Cash,Business,,156000.0,False,0.0
+2026-08-12,INV-00186,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.0,Mobile Money,Individual,,14500.0,False,0.0
+2026-08-05,INV-00187,Yonas,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Cash,Business,,68000.0,False,0.0
+2026-08-05,INV-00188,Yonas,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Bank Transfer,Business,,4500.0,False,0.0
+2026-08-14,INV-00189,Yonas,iPhone 15,Phones,2.0,52000.0,0.02,Card,Business,,101920.0,False,2.0
+2026-08-18,INV-00190,Sara,HP Pavilion 15,Laptops,4.0,68000.0,0.02,Card,Business,,266560.0,False,2.0
+2026-08-25,INV-00191,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.05,Bank Transfer,Individual,,17100.0,False,5.0
+2026-08-05,INV-00192,Yonas,JBL Tune 510BT,Accessories,2.0,4500.0,0.0,Cash,Individual,,9000.0,False,0.0
+2026-08-03,INV-00193,Sara,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.05,Mobile Money,Individual,,49400.0,False,5.0
+2026-08-27,INV-00194,Marta,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Cash,Business,,68000.0,False,0.0
+2026-08-12,INV-00195,Sara,AirPods Pro,Accessories,5.0,14500.0,0.0,Cash,Business,,72500.0,False,0.0
+2026-08-27,INV-00196,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Mobile Money,Individual,,28000.0,False,0.0
+2026-08-16,INV-00197,Abebe,USB-C Cable,Accessories,1.0,900.0,0.0,Card,Individual,,900.0,False,0.0
+2026-08-18,INV-00198,Sara,Tecno Camon 30,Phones,1.0,16000.0,0.0,Card,Individual,,16000.0,False,0.0
+2026-08-08,INV-00199,Abebe,iPhone 15,Phones,3.0,52000.0,0.02,Cash,Business,,152880.0,False,2.0
+2026-08-18,INV-00200,Sara,JBL Tune 510BT,Accessories,2.0,4500.0,0.0,Card,Business,,9000.0,False,0.0
+2026-08-20,INV-00201,Abebe,iPhone 15,Phones,2.0,52000.0,0.0,Card,Individual,,104000.0,False,0.0
+2026-08-18,INV-00202,Abebe,AirPods Pro,Accessories,5.0,14500.0,0.05,Mobile Money,Business,,68875.0,False,5.0
+2026-08-21,INV-00203,Dawit,iPhone 15,Phones,1.0,52000.0,0.0,Cash,Business,,52000.0,False,0.0
+2026-08-24,INV-00204,Sara,HP Pavilion 15,Laptops,2.0,68000.0,0.0,Cash,Business,imputed_customer_type,136000.0,False,0.0
+2026-08-11,INV-00205,Marta,AirPods Pro,Accessories,3.0,14500.0,0.02,Bank Transfer,Individual,,42630.0,False,2.0
+2026-08-23,INV-00206,Sara,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Cash,Business,,28000.0,False,0.0
+2026-08-17,INV-00207,Abebe,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.0,Bank Transfer,Business,,104000.0,False,0.0
+2026-08-28,INV-00208,Abebe,Dell Inspiron 15,Laptops,2.0,62000.0,0.0,Card,Business,,124000.0,False,0.0
+2026-08-24,INV-00209,Sara,iPad 10th Gen,Tablets,4.0,48000.0,0.0,Mobile Money,Business,,192000.0,False,0.0
+2026-08-30,INV-00210,Marta,Dell Inspiron 15,Laptops,3.0,62000.0,0.1,Cash,Business,,167400.0,False,10.0
+2026-08-27,INV-00211,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Card,Business,,4500.0,False,0.0
+2026-08-15,INV-00212,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Card,Business,,46800.0,False,10.0
+2026-08-24,INV-00213,Abebe,iPhone 15,Phones,5.0,52000.0,0.0,Cash,Business,,260000.0,False,0.0
+2026-08-17,INV-00214,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.05,Cash,Individual,,58900.0,False,5.0
+2026-08-08,INV-00215,Abebe,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Bank Transfer,Business,,26600.0,False,5.0
+2026-08-12,INV-00216,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Card,Business,,62000.0,False,0.0
+2026-08-21,INV-00217,Sara,Dell Inspiron 15,Laptops,4.0,62000.0,0.0,Mobile Money,Business,,248000.0,False,0.0
+2026-08-04,INV-00218,Sara,AirPods Pro,Accessories,1.0,14500.0,0.02,Card,Business,,14210.0,False,2.0
+2026-08-04,INV-00219,Marta,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Cash,Business,,68000.0,False,0.0
+2026-08-12,INV-00220,Sara,Anker Power Bank,Accessories,2.0,3500.0,0.0,Bank Transfer,Business,,7000.0,False,0.0
+2026-08-08,INV-00221,Marta,AirPods Pro,Accessories,3.0,14500.0,0.0,Cash,Business,,43500.0,False,0.0
+2026-08-19,INV-00222,Sara,AirPods Pro,Accessories,3.0,14500.0,0.05,Cash,Individual,,41325.0,False,5.0
+2026-08-13,INV-00223,Yonas,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.02,Cash,Individual,,50960.0,False,2.0
+2026-08-21,INV-00224,Dawit,Dell Inspiron 15,Laptops,2.0,62000.0,0.05,Bank Transfer,Individual,,117800.0,False,5.0
+2026-08-14,INV-00225,Yonas,Tecno Camon 30,Phones,3.0,16000.0,0.0,Bank Transfer,Business,,48000.0,False,0.0
+2026-08-06,INV-00226,Yonas,Tecno Camon 30,Phones,2.0,16000.0,0.0,Card,Individual,,32000.0,False,0.0
+2026-08-07,INV-00227,Yonas,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Cash,Individual,,52000.0,False,0.0
+2026-08-31,INV-00228,Yonas,JBL Tune 510BT,Accessories,1.0,4500.0,0.05,Card,Individual,,4275.0,False,5.0
+2026-08-03,INV-00229,Sara,iPhone 15,Phones,3.0,52000.0,0.0,Mobile Money,Individual,,156000.0,False,0.0
+2026-08-29,INV-00230,Marta,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.0,Bank Transfer,Business,,36000.0,False,0.0
+2026-08-15,INV-00231,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.02,Mobile Money,Business,,50960.0,False,2.0
+2026-08-11,INV-00232,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.1,Card,Business,,61200.0,False,10.0
+2026-08-25,INV-00233,Sara,Tecno Camon 30,Phones,2.0,16000.0,0.0,Mobile Money,Individual,,32000.0,False,0.0
+2026-08-15,INV-00234,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Mobile Money,Individual,,52000.0,False,0.0
+2026-08-27,INV-00235,Sara,Tecno Camon 30,Phones,2.0,16000.0,0.0,Bank Transfer,Business,,32000.0,False,0.0
+2026-08-15,INV-00236,Abebe,AirPods Pro,Accessories,1.0,14500.0,0.0,Mobile Money,Business,,14500.0,False,0.0
+2026-08-07,INV-00237,Marta,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Mobile Money,Business,,68000.0,False,0.0
+2026-08-01,INV-00238,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.0,Mobile Money,Business,,14500.0,False,0.0
+2026-08-13,INV-00239,Yonas,iPhone 15,Phones,2.0,52000.0,0.0,Card,Individual,,104000.0,False,0.0
+2026-08-17,INV-00240,Yonas,iPad 10th Gen,Tablets,2.0,48000.0,0.05,Cash,Individual,,91200.0,False,5.0
+2026-08-13,INV-00241,Dawit,Samsung Galaxy A55,Phones,5.0,28000.0,0.05,Bank Transfer,Individual,,133000.0,False,5.0
+2026-08-17,INV-00242,Sara,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Card,Business,,4500.0,False,0.0
+2026-08-15,INV-00243,Dawit,AirPods Pro,Accessories,3.0,14500.0,0.0,Card,Individual,,43500.0,False,0.0
+2026-08-20,INV-00244,Yonas,iPad 10th Gen,Tablets,1.0,48000.0,0.05,Mobile Money,Business,,45600.0,False,5.0
+2026-08-27,INV-00245,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Individual,,18000.0,False,0.0
+2026-08-16,INV-00246,Yonas,JBL Tune 510BT,Accessories,3.0,4500.0,0.05,Bank Transfer,Individual,,12825.0,False,5.0
+2026-08-16,INV-00247,Marta,JBL Tune 510BT,Accessories,2.0,4500.0,0.05,Bank Transfer,Individual,,8550.0,False,5.0
+2026-08-19,INV-00248,Marta,iPhone 15,Phones,1.0,52000.0,0.0,Bank Transfer,Business,,52000.0,False,0.0
+2026-08-07,INV-00249,Abebe,USB-C Cable,Accessories,3.0,900.0,0.02,Bank Transfer,Individual,,2646.0,False,2.0
+2026-08-11,INV-00250,Marta,AirPods Pro,Accessories,1.0,14500.0,0.0,Card,Business,,14500.0,False,0.0
+2026-08-25,INV-00251,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.0,Card,Individual,,7000.0,False,0.0
+2026-08-25,INV-00252,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Card,Business,,46800.0,False,10.0
+2026-08-18,INV-00253,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Mobile Money,Business,,55800.0,False,10.0
+2026-08-31,INV-00254,Abebe,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Card,Business,,55800.0,False,10.0
+2026-08-09,INV-00255,Dawit,Anker Power Bank,Accessories,1.0,3500.0,0.05,Card,Individual,,3325.0,False,5.0
+2026-08-20,INV-00256,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Bank Transfer,Individual,,25200.0,False,10.0
+2026-08-04,INV-00257,Sara,iPhone 15,Phones,2.0,52000.0,0.0,Cash,Individual,,104000.0,False,0.0
+2026-08-21,INV-00258,Dawit,iPad 10th Gen,Tablets,2.0,48000.0,0.0,Card,Individual,,96000.0,False,0.0
+2026-08-21,INV-00259,Abebe,Samsung Galaxy A55,Phones,2.0,28000.0,0.1,Bank Transfer,Business,,50400.0,False,10.0
+2026-08-30,INV-00260,Sara,Tecno Camon 30,Phones,1.0,16000.0,0.02,Card,Individual,,15680.0,False,2.0
+2026-08-10,INV-00261,Dawit,iPhone 15,Phones,1.0,52000.0,0.0,Mobile Money,Business,,52000.0,False,0.0
+2026-08-28,INV-00262,Dawit,Tecno Camon 30,Phones,1.0,16000.0,0.0,Bank Transfer,Business,,16000.0,False,0.0
+2026-08-09,INV-00263,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.0,Bank Transfer,Individual,,7000.0,False,0.0
+2026-08-28,INV-00264,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Mobile Money,Individual,,4500.0,False,0.0
+2026-08-05,INV-00265,Dawit,Tecno Camon 30,Phones,4.0,16000.0,0.0,Mobile Money,Individual,,64000.0,False,0.0
+2026-08-25,INV-00266,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Cash,Business,,16200.0,False,10.0
+2026-08-12,INV-00267,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.02,Bank Transfer,Business,,6860.0,False,2.0
+2026-08-17,INV-00268,Dawit,Anker Power Bank,Accessories,1.0,3500.0,0.0,Bank Transfer,Individual,imputed_discount,3500.0,False,0.0
+2026-08-16,INV-00269,Dawit,Tecno Camon 30,Phones,2.0,16000.0,0.05,Mobile Money,Business,,30400.0,False,5.0
+2026-08-26,INV-00270,Abebe,AirPods Pro,Accessories,1.0,14500.0,0.05,Mobile Money,Business,,13775.0,False,5.0
+2026-08-30,INV-00271,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Bank Transfer,Individual,,26600.0,False,5.0
+2026-08-11,INV-00272,Yonas,Tecno Camon 30,Phones,1.0,16000.0,0.0,Mobile Money,Individual,,16000.0,False,0.0
+2026-08-15,INV-00273,Marta,AirPods Pro,Accessories,1.0,14500.0,0.02,Cash,Business,,14210.0,False,2.0
+2026-08-26,INV-00274,Abebe,Anker Power Bank,Accessories,1.0,3500.0,0.0,Bank Transfer,Individual,,3500.0,False,0.0
+2026-08-14,INV-00275,Abebe,iPhone 15,Phones,1.0,52000.0,0.0,Mobile Money,Individual,,52000.0,False,0.0
+2026-08-14,INV-00276,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Card,Business,,46800.0,False,10.0
+2026-08-28,INV-00277,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Bank Transfer,Business,,16200.0,False,10.0
+2026-08-06,INV-00278,Sara,Samsung Galaxy A55,Phones,2.0,28000.0,0.1,Cash,Individual,,50400.0,False,10.0
+2026-08-15,INV-00279,Sara,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.0,Mobile Money,Business,,104000.0,False,0.0
+2026-08-09,INV-00280,Abebe,Tecno Camon 30,Phones,3.0,16000.0,0.0,Mobile Money,Individual,,48000.0,False,0.0
+2026-08-07,INV-00281,Yonas,HP Pavilion 15,Laptops,2.0,68000.0,0.02,Cash,Individual,,133280.0,False,2.0
+2026-08-02,INV-00282,Abebe,USB-C Cable,Accessories,1.0,900.0,0.0,Bank Transfer,Business,,900.0,False,0.0
+2026-08-27,INV-00283,Dawit,HP Pavilion 15,Laptops,2.0,68000.0,0.1,Bank Transfer,Business,,122400.0,False,10.0
+2026-08-22,INV-00284,Abebe,Tecno Camon 30,Phones,1.0,16000.0,0.0,Bank Transfer,Business,,16000.0,False,0.0
+2026-08-16,INV-00285,Marta,AirPods Pro,Accessories,4.0,14500.0,0.1,Card,Business,,52200.0,False,10.0
+2026-08-05,INV-00286,Marta,iPad 10th Gen,Tablets,1.0,48000.0,0.05,Bank Transfer,Individual,,45600.0,False,5.0
+2026-08-28,INV-00287,Yonas,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.0,Mobile Money,Business,,104000.0,False,0.0
+2026-08-17,INV-00288,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.0,Cash,Business,,14500.0,False,0.0
+2026-08-03,INV-00289,Dawit,Dell Inspiron 15,Laptops,3.0,62000.0,0.0,Mobile Money,Individual,,186000.0,False,0.0
+2026-08-07,INV-00290,Marta,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Bank Transfer,Business,,56000.0,False,0.0
+2026-08-31,INV-00291,Abebe,Lenovo IdeaPad 3,Laptops,4.0,52000.0,0.1,Mobile Money,Individual,,187200.0,False,10.0
+2026-08-20,INV-00292,Dawit,USB-C Cable,Accessories,4.0,900.0,0.05,Card,Business,,3420.0,False,5.0
+2026-08-18,INV-00293,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.05,Mobile Money,Individual,,17100.0,False,5.0
+2026-08-16,INV-00294,Marta,USB-C Cable,Accessories,1.0,900.0,0.0,Cash,Individual,,900.0,False,0.0
+2026-08-05,INV-00295,Yonas,USB-C Cable,Accessories,2.0,900.0,0.05,Mobile Money,Business,,1710.0,False,5.0
+2026-08-07,INV-00296,Marta,Tecno Camon 30,Phones,1.0,16000.0,0.0,Card,Business,,16000.0,False,0.0
+2026-08-31,INV-00297,Sara,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Bank Transfer,Business,,18000.0,False,0.0
+2026-08-30,INV-00298,Abebe,Tecno Camon 30,Phones,4.0,16000.0,0.05,Cash,Individual,,60800.0,False,5.0
+2026-08-14,INV-00299,Sara,iPhone 15,Phones,2.0,52000.0,0.0,Cash,Individual,,104000.0,False,0.0
+2026-08-15,INV-00300,Yonas,AirPods Pro,Accessories,2.0,14500.0,0.1,Mobile Money,Business,,26100.0,False,10.0
+2026-08-01,INV-00301,Yonas,iPhone 15,Phones,1.0,52000.0,0.0,Card,Business,,52000.0,False,0.0
+2026-08-17,INV-00302,Abebe,iPhone 15,Phones,4.0,52000.0,0.0,Cash,Individual,,208000.0,False,0.0
+2026-08-07,INV-00303,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Mobile Money,Individual,,68000.0,False,0.0
+2026-08-31,INV-00304,Sara,Dell Inspiron 15,Laptops,2.0,62000.0,0.1,Card,Individual,,111600.0,False,10.0
+2026-08-28,INV-00305,Yonas,Anker Power Bank,Accessories,1.0,3500.0,0.02,Mobile Money,Individual,,3430.0,False,2.0
+2026-08-01,INV-00306,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.02,Cash,Individual,,6860.0,False,2.0
+2026-08-07,INV-00307,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Cash,Individual,,68000.0,False,0.0
+2026-08-01,INV-00308,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Cash,Business,,55800.0,False,10.0
+2026-08-19,INV-00309,Yonas,Tecno Camon 30,Phones,3.0,16000.0,0.02,Card,Business,,47040.0,False,2.0
+2026-08-05,INV-00310,Abebe,USB-C Cable,Accessories,2.0,900.0,0.0,Cash,Business,,1800.0,False,0.0
+2026-08-27,INV-00311,Yonas,HP Pavilion 15,Laptops,2.0,68000.0,0.05,Mobile Money,Business,,129200.0,False,5.0
+2026-08-21,INV-00312,Sara,iPhone 15,Phones,5.0,52000.0,0.02,Card,Business,,254800.0,False,2.0
+2026-08-09,INV-00314,Sara,Samsung Galaxy A55,Phones,2.0,28000.0,0.1,Mobile Money,Business,,50400.0,False,10.0
+2026-08-04,INV-00315,Dawit,Dell Inspiron 15,Laptops,4.0,62000.0,0.02,Card,Individual,,243040.0,False,2.0
+2026-08-03,INV-00316,Yonas,Tecno Camon 30,Phones,1.0,16000.0,0.05,Mobile Money,Individual,,15200.0,False,5.0
+2026-08-03,INV-00317,Dawit,iPhone 15,Phones,1.0,52000.0,0.05,Mobile Money,Individual,,49400.0,False,5.0
+2026-08-14,INV-00318,Sara,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.05,Bank Transfer,Business,,49400.0,False,5.0
+2026-08-05,INV-00319,Abebe,Tecno Camon 30,Phones,1.0,16000.0,0.0,Bank Transfer,Business,,16000.0,False,0.0
+2026-08-14,INV-00320,Dawit,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.0,Bank Transfer,Business,,156000.0,False,0.0
+2026-08-20,INV-00321,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Mobile Money,Business,,4500.0,False,0.0
+2026-08-13,INV-00322,Yonas,JBL Tune 510BT,Accessories,1.0,4500.0,0.1,Bank Transfer,Business,,4050.0,False,10.0
+2026-08-20,INV-00323,Dawit,Dell Inspiron 15,Laptops,1.0,62000.0,0.02,Card,Business,,60760.0,False,2.0
+2026-08-26,INV-00324,Dawit,JBL Tune 510BT,Accessories,1.0,4500.0,0.02,Cash,Individual,,4410.0,False,2.0
+2026-08-18,INV-00325,Marta,JBL Tune 510BT,Accessories,3.0,4500.0,0.0,Bank Transfer,Business,,13500.0,False,0.0
+2026-08-27,INV-00326,Marta,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.02,Bank Transfer,Business,,152880.0,False,2.0
+2026-08-09,INV-00327,Abebe,HP Pavilion 15,Laptops,1.0,68000.0,0.02,Mobile Money,Business,,66640.0,False,2.0
+2026-08-13,INV-00328,Marta,JBL Tune 510BT,Accessories,4.0,4500.0,0.1,Cash,Business,,16200.0,False,10.0
+2026-08-29,INV-00329,Abebe,USB-C Cable,Accessories,2.0,900.0,0.0,Bank Transfer,Business,,1800.0,False,0.0
+2026-08-21,INV-00330,Marta,Tecno Camon 30,Phones,2.0,16000.0,0.1,Card,Business,,28800.0,False,10.0
+2026-08-01,INV-00331,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.1,Bank Transfer,Business,,25200.0,False,10.0
+2026-08-13,INV-00332,Yonas,Dell Inspiron 15,Laptops,2.0,62000.0,0.1,Bank Transfer,Business,,111600.0,False,10.0
+2026-08-16,INV-00333,Abebe,iPhone 15,Phones,1.0,52000.0,0.0,Bank Transfer,Business,,52000.0,False,0.0
+2026-08-11,INV-00334,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.02,Mobile Money,Individual,,50960.0,False,2.0
+2026-08-24,INV-00335,Abebe,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Cash,Business,,18000.0,False,0.0
+2026-08-04,INV-00336,Yonas,Anker Power Bank,Accessories,5.0,3500.0,0.0,Bank Transfer,Individual,,17500.0,False,0.0
+2026-08-18,INV-00337,Sara,Dell Inspiron 15,Laptops,1.0,62000.0,0.02,Bank Transfer,Business,,60760.0,False,2.0
+2026-08-01,INV-00338,Marta,iPad 10th Gen,Tablets,1.0,48000.0,0.05,Mobile Money,Individual,,45600.0,False,5.0
+2026-08-07,INV-00339,Yonas,USB-C Cable,Accessories,3.0,900.0,0.0,Cash,Individual,,2700.0,False,0.0
+2026-08-11,INV-00340,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Card,Business,,55800.0,False,10.0
+2026-08-13,INV-00341,Yonas,JBL Tune 510BT,Accessories,1.0,4500.0,0.02,Bank Transfer,Business,,4410.0,False,2.0
+2026-08-19,INV-00342,Sara,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Card,Individual,,4500.0,False,0.0
+2026-08-12,INV-00343,Sara,Tecno Camon 30,Phones,1.0,16000.0,0.05,Mobile Money,Business,,15200.0,False,5.0
+2026-08-16,INV-00344,Yonas,Tecno Camon 30,Phones,4.0,16000.0,0.0,Bank Transfer,Business,,64000.0,False,0.0
+2026-08-05,INV-00345,Abebe,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.05,Card,Individual,,148200.0,False,5.0
+2026-08-05,INV-00346,Yonas,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.05,Mobile Money,Business,,17100.0,False,5.0
+2026-08-16,INV-00347,Sara,Anker Power Bank,Accessories,3.0,3500.0,0.02,Cash,Individual,,10290.0,False,2.0
+2026-08-10,INV-00348,Sara,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Mobile Money,Business,,68000.0,False,0.0
+2026-08-17,INV-00349,Dawit,AirPods Pro,Accessories,1.0,14500.0,0.05,Cash,Business,,13775.0,False,5.0
+2026-08-07,INV-00350,Sara,AirPods Pro,Accessories,2.0,14500.0,0.1,Card,Individual,,26100.0,False,10.0
+2026-08-09,INV-00351,Abebe,Samsung Galaxy Tab A9,Tablets,3.0,18000.0,0.02,Bank Transfer,Individual,,52920.0,False,2.0
+2026-08-19,INV-00352,Marta,USB-C Cable,Accessories,2.0,900.0,0.1,Bank Transfer,Individual,,1620.0,False,10.0
+2026-08-27,INV-00353,Yonas,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Card,Individual,,68000.0,False,0.0
+2026-08-23,INV-00354,Abebe,Dell Inspiron 15,Laptops,2.0,62000.0,0.05,Bank Transfer,Business,,117800.0,False,5.0
+2026-08-09,INV-00355,Sara,iPhone 15,Phones,3.0,52000.0,0.0,Card,Individual,,156000.0,False,0.0
+2026-08-13,INV-00356,Marta,Anker Power Bank,Accessories,2.0,3500.0,0.0,Mobile Money,Business,,7000.0,False,0.0
+2026-08-21,INV-00357,Dawit,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Mobile Money,Business,,56000.0,False,0.0
+2026-08-19,INV-00358,Abebe,Dell Inspiron 15,Laptops,3.0,62000.0,0.1,Mobile Money,Business,,167400.0,False,10.0
+2026-08-26,INV-00359,Sara,Samsung Galaxy A55,Phones,1.0,28000.0,0.02,Mobile Money,Business,,27440.0,False,2.0
+2026-08-27,INV-00360,Yonas,Dell Inspiron 15,Laptops,2.0,62000.0,0.0,Mobile Money,Business,,124000.0,False,0.0
+2026-08-25,INV-00361,Abebe,Anker Power Bank,Accessories,1.0,3500.0,0.02,Cash,Individual,,3430.0,False,2.0
+2026-08-15,INV-00362,Sara,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Card,Individual,,16200.0,False,10.0
+2026-08-03,INV-00363,Sara,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Cash,Business,,46800.0,False,10.0
+2026-08-10,INV-00364,Abebe,Anker Power Bank,Accessories,2.0,3500.0,0.1,Cash,Individual,,6300.0,False,10.0
+2026-08-03,INV-00365,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Cash,Individual,,16200.0,False,10.0
+2026-08-11,INV-00366,Marta,USB-C Cable,Accessories,1.0,900.0,0.0,Cash,Individual,,900.0,False,0.0
+2026-08-03,INV-00367,Sara,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Mobile Money,Individual,,48000.0,False,0.0
+2026-08-22,INV-00368,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.0,Bank Transfer,Business,,7000.0,False,0.0
+2026-08-24,INV-00369,Yonas,Dell Inspiron 15,Laptops,2.0,62000.0,0.02,Mobile Money,Individual,,121520.0,False,2.0
+2026-08-29,INV-00370,Marta,Samsung Galaxy A55,Phones,3.0,28000.0,0.05,Card,Business,,79800.0,False,5.0
+2026-08-26,INV-00371,Sara,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Card,Individual,,62000.0,False,0.0
+2026-08-29,INV-00372,Sara,Anker Power Bank,Accessories,2.0,3500.0,0.05,Mobile Money,Business,,6650.0,False,5.0
+2026-08-02,INV-00373,Marta,Anker Power Bank,Accessories,1.0,3500.0,0.0,Cash,Individual,,3500.0,False,0.0
+2026-08-30,INV-00374,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.05,Card,Individual,,58900.0,False,5.0
+2026-08-31,INV-00375,Dawit,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.0,Bank Transfer,Individual,,36000.0,False,0.0
+2026-08-31,INV-00376,Yonas,iPhone 15,Phones,1.0,52000.0,0.1,Mobile Money,Business,,46800.0,False,10.0
+2026-08-13,INV-00377,Sara,USB-C Cable,Accessories,2.0,900.0,0.05,Card,Individual,,1710.0,False,5.0
+2026-08-03,INV-00378,Yonas,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Card,Business,,52000.0,False,0.0
+2026-08-21,INV-00379,Sara,JBL Tune 510BT,Accessories,2.0,4500.0,0.1,Cash,Individual,,8100.0,False,10.0
+2026-08-30,INV-00380,Abebe,Samsung Galaxy A55,Phones,2.0,28000.0,0.05,Card,Individual,,53200.0,False,5.0
+2026-08-01,INV-00381,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.02,Card,Individual,,27440.0,False,2.0
+2026-08-05,INV-00382,Dawit,Dell Inspiron 15,Laptops,3.0,62000.0,0.0,Mobile Money,Business,,186000.0,False,0.0
+2026-08-03,INV-00383,Abebe,AirPods Pro,Accessories,5.0,14500.0,0.1,Mobile Money,Business,,65250.0,False,10.0
+2026-08-12,INV-00384,Dawit,AirPods Pro,Accessories,3.0,14500.0,0.0,Bank Transfer,Business,,43500.0,False,0.0
+2026-08-29,INV-00385,Yonas,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Cash,Individual,,56000.0,False,0.0
+2026-08-08,INV-00386,Sara,iPhone 15,Phones,1.0,52000.0,0.0,Cash,Business,,52000.0,False,0.0
+2026-08-11,INV-00387,Dawit,HP Pavilion 15,Laptops,4.0,68000.0,0.0,Cash,Business,,272000.0,False,0.0
+2026-08-17,INV-00388,Abebe,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Mobile Money,Individual,,26600.0,False,5.0
+2026-08-28,INV-00389,Abebe,Samsung Galaxy Tab A9,Tablets,3.0,18000.0,0.0,Mobile Money,Individual,,54000.0,False,0.0
+2026-08-07,INV-00390,Yonas,Dell Inspiron 15,Laptops,3.0,62000.0,0.1,Bank Transfer,Business,,167400.0,False,10.0
+2026-08-19,INV-00391,Yonas,Dell Inspiron 15,Laptops,3.0,62000.0,0.1,Bank Transfer,Individual,,167400.0,False,10.0
+2026-08-30,INV-00392,Abebe,iPhone 15,Phones,1.0,52000.0,0.0,Card,Individual,,52000.0,False,0.0
+2026-08-13,INV-00393,Marta,Anker Power Bank,Accessories,1.0,3500.0,0.0,Mobile Money,Individual,,3500.0,False,0.0
+2026-08-23,INV-00394,Yonas,Tecno Camon 30,Phones,1.0,16000.0,0.0,Mobile Money,Business,,16000.0,False,0.0
+2026-08-24,INV-00395,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Cash,Individual,,18000.0,False,0.0
+2026-08-22,INV-00396,Marta,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Card,Business,,48000.0,False,0.0
+2026-08-09,INV-00397,Yonas,Samsung Galaxy Tab A9,Tablets,4.0,18000.0,0.0,Cash,Individual,,72000.0,False,0.0
+2026-08-06,INV-00398,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Card,Individual,,28000.0,False,0.0
+2026-08-10,INV-00399,Sara,Samsung Galaxy Tab A9,Tablets,3.0,18000.0,0.0,Card,Individual,,54000.0,False,0.0
+2026-08-27,INV-00400,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Mobile Money,Individual,,68000.0,False,0.0
+2026-08-10,INV-00401,Marta,Anker Power Bank,Accessories,5.0,3500.0,0.0,Mobile Money,Individual,,17500.0,False,0.0
+2026-08-15,INV-00402,Abebe,Samsung Galaxy A55,Phones,3.0,28000.0,0.0,Cash,Individual,,84000.0,False,0.0
+2026-08-07,INV-00403,Abebe,Tecno Camon 30,Phones,2.0,16000.0,0.1,Card,Individual,,28800.0,False,10.0
+2026-08-03,INV-00404,Abebe,iPhone 15,Phones,2.0,52000.0,0.0,Card,Individual,,104000.0,False,0.0
+2026-08-31,INV-00405,Marta,iPhone 15,Phones,1.0,52000.0,0.05,Mobile Money,Business,,49400.0,False,5.0
+2026-08-13,INV-00406,Dawit,iPhone 15,Phones,1.0,52000.0,0.0,Card,Business,,52000.0,False,0.0
+2026-08-02,INV-00407,Dawit,Tecno Camon 30,Phones,2.0,16000.0,0.1,Mobile Money,Business,,28800.0,False,10.0
+2026-08-16,INV-00408,Marta,AirPods Pro,Accessories,1.0,14500.0,0.0,Bank Transfer,Individual,,14500.0,False,0.0
+2026-08-26,INV-00409,Dawit,Anker Power Bank,Accessories,1.0,3500.0,0.02,Mobile Money,Business,,3430.0,False,2.0
+2026-08-30,INV-00410,Sara,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Cash,Business,,62000.0,False,0.0
+2026-08-08,INV-00411,Abebe,JBL Tune 510BT,Accessories,3.0,4500.0,0.0,Mobile Money,Business,,13500.0,False,0.0
+2026-08-08,INV-00412,Dawit,JBL Tune 510BT,Accessories,1.0,4500.0,0.0,Cash,Individual,,4500.0,False,0.0
+2026-08-28,INV-00413,Sara,JBL Tune 510BT,Accessories,4.0,4500.0,0.0,Bank Transfer,Business,,18000.0,False,0.0
+2026-08-23,INV-00414,Dawit,USB-C Cable,Accessories,2.0,900.0,0.1,Bank Transfer,Individual,,1620.0,False,10.0
+2026-08-18,INV-00415,Abebe,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.0,Bank Transfer,Individual,,36000.0,False,0.0
+2026-08-17,INV-00416,Sara,iPhone 15,Phones,1.0,52000.0,0.05,Bank Transfer,Business,,49400.0,False,5.0
+2026-08-06,INV-00417,Sara,USB-C Cable,Accessories,1.0,900.0,0.05,Cash,Business,,855.0,False,5.0
+2026-08-12,INV-00418,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Bank Transfer,Individual,,28000.0,False,0.0
+2026-08-31,INV-00419,Dawit,USB-C Cable,Accessories,2.0,900.0,0.02,Bank Transfer,Business,,1764.0,False,2.0
+2026-08-22,INV-00420,Dawit,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Bank Transfer,Individual,,68000.0,False,0.0
+2026-08-01,INV-00421,Abebe,USB-C Cable,Accessories,3.0,900.0,0.05,Bank Transfer,Business,,2565.0,False,5.0
+2026-08-08,INV-00422,Dawit,JBL Tune 510BT,Accessories,4.0,4500.0,0.0,Cash,Individual,imputed_price,18000.0,False,0.0
+2026-08-11,INV-00423,Dawit,Dell Inspiron 15,Laptops,3.0,62000.0,0.0,Mobile Money,Individual,,186000.0,False,0.0
+2026-08-07,INV-00424,Abebe,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Cash,Individual,,52000.0,False,0.0
+2026-08-15,INV-00425,Marta,iPad 10th Gen,Tablets,3.0,48000.0,0.02,Card,Business,,141120.0,False,2.0
+2026-08-27,INV-00426,Sara,Samsung Galaxy A55,Phones,3.0,28000.0,0.1,Bank Transfer,Business,,75600.0,False,10.0
+2026-08-26,INV-00427,Abebe,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Cash,Business,,28000.0,False,0.0
+2026-08-29,INV-00428,Abebe,Tecno Camon 30,Phones,2.0,16000.0,0.05,Card,Business,,30400.0,False,5.0
+2026-08-01,INV-00429,Sara,USB-C Cable,Accessories,1.0,900.0,0.02,Cash,Individual,,882.0,False,2.0
+2026-08-07,INV-00430,Yonas,Dell Inspiron 15,Laptops,2.0,62000.0,0.1,Card,Business,,111600.0,False,10.0
+2026-08-08,INV-00431,Marta,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.05,Bank Transfer,Individual,,49400.0,False,5.0
+2026-08-01,INV-00432,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Mobile Money,Individual,,55800.0,False,10.0
+2026-08-01,INV-00433,Marta,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Cash,Business,,56000.0,False,0.0
+2026-08-16,INV-00434,Yonas,iPad 10th Gen,Tablets,2.0,48000.0,0.0,Mobile Money,Individual,,96000.0,False,0.0
+2026-08-29,INV-00435,Dawit,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Mobile Money,Business,,62000.0,False,0.0
+2026-08-08,INV-00436,Abebe,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.1,Cash,Business,,46800.0,False,10.0
+2026-08-14,INV-00437,Yonas,AirPods Pro,Accessories,2.0,14500.0,0.02,Mobile Money,Business,,28420.0,False,2.0
+2026-08-29,INV-00438,Abebe,JBL Tune 510BT,Accessories,1.0,4500.0,0.02,Bank Transfer,Individual,,4410.0,False,2.0
+2026-08-06,INV-00439,Abebe,Samsung Galaxy Tab A9,Tablets,3.0,18000.0,0.0,Mobile Money,Individual,,54000.0,False,0.0
+2026-08-14,INV-00440,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.05,Card,Individual,,6650.0,False,5.0
+2026-08-13,INV-00441,Yonas,Samsung Galaxy A55,Phones,2.0,28000.0,0.0,Mobile Money,Individual,,56000.0,False,0.0
+2026-08-20,INV-00442,Marta,USB-C Cable,Accessories,3.0,900.0,0.0,Bank Transfer,Individual,,2700.0,False,0.0
+2026-08-19,INV-00443,Abebe,JBL Tune 510BT,Accessories,4.0,4500.0,0.0,Cash,Business,,18000.0,False,0.0
+2026-08-29,INV-00444,Marta,AirPods Pro,Accessories,1.0,14500.0,0.02,Mobile Money,Individual,,14210.0,False,2.0
+2026-08-09,INV-00445,Marta,Tecno Camon 30,Phones,2.0,16000.0,0.1,Cash,Business,,28800.0,False,10.0
+2026-08-23,INV-00446,Dawit,Dell Inspiron 15,Laptops,2.0,62000.0,0.0,Cash,Business,,124000.0,False,0.0
+2026-08-10,INV-00447,Abebe,Lenovo IdeaPad 3,Laptops,2.0,52000.0,0.1,Bank Transfer,Individual,,93600.0,False,10.0
+2026-08-24,INV-00448,Marta,Lenovo IdeaPad 3,Laptops,3.0,52000.0,0.0,Cash,Individual,,156000.0,False,0.0
+2026-08-07,INV-00449,Dawit,Samsung Galaxy Tab A9,Tablets,2.0,18000.0,0.05,Cash,Individual,,34200.0,False,5.0
+2026-08-10,INV-00450,Yonas,Samsung Galaxy A55,Phones,1.0,28000.0,0.05,Cash,Individual,,26600.0,False,5.0
+2026-08-29,INV-00451,Marta,HP Pavilion 15,Laptops,1.0,68000.0,0.0,Cash,Business,,68000.0,False,0.0
+2026-08-07,INV-00452,Marta,USB-C Cable,Accessories,3.0,900.0,0.05,Cash,Individual,,2565.0,False,5.0
+2026-08-12,INV-00453,Yonas,HP Pavilion 15,Laptops,1.0,68000.0,0.02,Card,Business,,66640.0,False,2.0
+2026-08-27,INV-00454,Dawit,Tecno Camon 30,Phones,3.0,16000.0,0.0,Cash,Business,,48000.0,False,0.0
+2026-08-06,INV-00455,Sara,iPhone 15,Phones,4.0,52000.0,0.0,Bank Transfer,Business,,208000.0,False,0.0
+2026-08-14,INV-00456,Abebe,Anker Power Bank,Accessories,3.0,3500.0,0.1,Mobile Money,Individual,,9450.0,False,10.0
+2026-08-06,INV-00457,Yonas,Anker Power Bank,Accessories,1.0,3500.0,0.0,Card,Business,,3500.0,False,0.0
+2026-08-29,INV-00458,Sara,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Mobile Money,Business,,48000.0,False,0.0
+2026-08-17,INV-00459,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.0,Card,Business,,7000.0,False,0.0
+2026-08-22,INV-00460,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.0,Card,Business,,52000.0,False,0.0
+2026-08-23,INV-00461,Abebe,Anker Power Bank,Accessories,1.0,3500.0,0.0,Mobile Money,Business,,3500.0,False,0.0
+2026-08-05,INV-00462,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.0,Mobile Money,Business,,7000.0,False,0.0
+2026-08-24,INV-00463,Sara,iPad 10th Gen,Tablets,2.0,48000.0,0.05,Card,Individual,,91200.0,False,5.0
+2026-08-18,INV-00464,Yonas,Anker Power Bank,Accessories,4.0,3500.0,0.0,Card,Individual,,14000.0,False,0.0
+2026-08-29,INV-00465,Sara,Anker Power Bank,Accessories,1.0,3500.0,0.02,Card,Individual,,3430.0,False,2.0
+2026-08-29,INV-00466,Sara,Anker Power Bank,Accessories,1.0,3500.0,0.0,Card,Business,,3500.0,False,0.0
+2026-08-12,INV-00467,Marta,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Cash,Individual,,62000.0,False,0.0
+2026-08-29,INV-00468,Marta,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.1,Card,Business,,16200.0,False,10.0
+2026-08-28,INV-00469,Marta,iPhone 15,Phones,5.0,52000.0,0.0,Mobile Money,Individual,,260000.0,False,0.0
+2026-08-28,INV-00470,Sara,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Card,Individual,,62000.0,False,0.0
+2026-08-15,INV-00471,Yonas,iPhone 15,Phones,3.0,52000.0,0.0,Bank Transfer,Business,,156000.0,False,0.0
+2026-08-05,INV-00472,Marta,Samsung Galaxy A55,Phones,2.0,28000.0,0.02,Mobile Money,Business,,54880.0,False,2.0
+2026-08-02,INV-00473,Dawit,iPhone 15,Phones,2.0,52000.0,0.0,Bank Transfer,Individual,,104000.0,False,0.0
+2026-08-01,INV-00474,Dawit,Anker Power Bank,Accessories,2.0,3500.0,0.0,Bank Transfer,Individual,,7000.0,False,0.0
+2026-08-17,INV-00475,Dawit,iPad 10th Gen,Tablets,1.0,48000.0,0.0,Card,Business,,48000.0,False,0.0
+2026-08-17,INV-00476,Sara,USB-C Cable,Accessories,1.0,900.0,0.1,Card,Business,,810.0,False,10.0
+2026-08-25,INV-00477,Abebe,Dell Inspiron 15,Laptops,4.0,62000.0,0.02,Bank Transfer,Individual,,243040.0,False,2.0
+2026-08-05,INV-00478,Sara,USB-C Cable,Accessories,1.0,900.0,0.05,Cash,Business,,855.0,False,5.0
+2026-08-21,INV-00479,Yonas,USB-C Cable,Accessories,3.0,900.0,0.0,Cash,Individual,,2700.0,False,0.0
+2026-08-04,INV-00480,Marta,Anker Power Bank,Accessories,2.0,3500.0,0.02,Mobile Money,Individual,,6860.0,False,2.0
+2026-08-09,INV-00481,Abebe,AirPods Pro,Accessories,1.0,14500.0,0.1,Card,Business,,13050.0,False,10.0
+2026-08-04,INV-00482,Sara,Anker Power Bank,Accessories,2.0,3500.0,0.1,Mobile Money,Individual,,6300.0,False,10.0
+2026-08-24,INV-00483,Marta,AirPods Pro,Accessories,1.0,14500.0,0.0,Bank Transfer,Individual,,14500.0,False,0.0
+2026-08-27,INV-00484,Dawit,Lenovo IdeaPad 3,Laptops,1.0,52000.0,0.02,Bank Transfer,Individual,,50960.0,False,2.0
+2026-08-16,INV-00485,Sara,AirPods Pro,Accessories,4.0,14500.0,0.0,Cash,Individual,,58000.0,False,0.0
+2026-08-03,INV-00486,Sara,Anker Power Bank,Accessories,2.0,3500.0,0.02,Cash,Individual,,6860.0,False,2.0
+2026-08-02,INV-00488,Dawit,Samsung Galaxy Tab A9,Tablets,1.0,18000.0,0.0,Card,Business,,18000.0,False,0.0
+2026-08-24,INV-00489,Abebe,iPad 10th Gen,Tablets,3.0,48000.0,0.0,Bank Transfer,Individual,,144000.0,False,0.0
+2026-08-12,INV-00490,Abebe,Dell Inspiron 15,Laptops,1.0,62000.0,0.1,Card,Business,,55800.0,False,10.0
+2026-08-04,INV-00491,Marta,Tecno Camon 30,Phones,4.0,16000.0,0.0,Mobile Money,Business,,64000.0,False,0.0
+2026-08-29,INV-00492,Abebe,Anker Power Bank,Accessories,1.0,3500.0,0.1,Bank Transfer,Individual,,3150.0,False,10.0
+2026-08-30,INV-00493,Marta,iPad 10th Gen,Tablets,3.0,48000.0,0.1,Bank Transfer,Business,,129600.0,False,10.0
+2026-08-20,INV-00494,Sara,Dell Inspiron 15,Laptops,2.0,62000.0,0.1,Mobile Money,Business,,111600.0,False,10.0
+2026-08-29,INV-00495,Dawit,Samsung Galaxy A55,Phones,1.0,28000.0,0.0,Cash,Individual,,28000.0,False,0.0
+2026-08-28,INV-00496,Yonas,Anker Power Bank,Accessories,2.0,3500.0,0.1,Cash,Business,,6300.0,False,10.0
+2026-08-24,INV-00497,Marta,Anker Power Bank,Accessories,1.0,3500.0,0.1,Bank Transfer,Individual,,3150.0,False,10.0
+2026-08-21,INV-00498,Sara,iPhone 15,Phones,3.0,52000.0,0.02,Cash,Business,,152880.0,False,2.0
+2026-08-08,INV-00499,Yonas,Dell Inspiron 15,Laptops,1.0,62000.0,0.0,Mobile Money,Business,,62000.0,False,0.0
+2026-08-03,INV-00500,Abebe,HP Pavilion 15,Laptops,3.0,68000.0,0.02,Mobile Money,Business,,199920.0,False,2.0
